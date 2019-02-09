@@ -9,126 +9,130 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
     integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+  <!-- CSS style page-->
   <link href="styles/main.css" rel="stylesheet" type="text/css">
+
+  <!-- Title and personal meta-->
   <title>Angel Cabezas</title>
   <meta name="author" content="Angel Camilo Cabezas Varela">
-  <meta name="description" content="Página web personal.">
+  <meta name="description" content="Personal website">
 </head>
 
 <body>
-  <main>
-    <div classs="container">
-      <div class="row bg-danger">
-        <div class="col-6 col-md-4 col-lg-2">
-          <div class="card card-body bg-danger">
-            <img src="images/perfil.jpg" alt="My photo" height="70" width="70">
-          </div>
+  <header class="fluid-container bg-danger">
+    <div class="col-6 col-md-4 col-lg-2">
+      <div class="card card-body bg-danger">
+        <img src="images/perfil.jpg" alt="My photo" width="70">
+      </div>
+    </div>
+    <div class="col-6 col-md-8 col-lg-10">
+      <div class="card card-body bg-danger">
+        <h1 class="text-center">ANGEL CAMILO CABEZAS VARELA</h1>
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+      <a class="navbar-brand" href="#">Home</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#AboutMe">About me</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#Achievements">Education</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#Achievements">Experience</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#Projects">Projects</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main  id="Home">
+    <div class="row">
+      <div class="col">
 
-        </div>
-        <div class="col-6 col-md-8 col-lg-10 align-self-center">
-          <div class="card card-body bg-danger">
-            <h1 class="text-center">ANGEL CAMILO CABEZAS VARELA</h1>
-          </div>
+      </div>
+    </div>
+    <div class="row" id="AboutMe">
+      <div class="col-12 col-sm-6">
+        <div class="mx-auto" style="width: 150px;">
+          <img class="img-fluid" src="images/figura1.png" alt="tetris figure">
         </div>
       </div>
-      <div class="row">
-        <div class="col">
-          <nav class="navbar navbar-expand-lg navbar-light bg-danger">
-            <a class="navbar-brand" href="#">Home</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">About me</a>
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Education</a>
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Experience</a>
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Projects</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12 col-sm-6">
-          <div class="mx-auto" style="width: 150px;">
-            <img class="img-fluid" src="images/figura1.png" alt="tetris figure">
-          </div>
-        </div>
-        <div class="col-12 col-sm-6">
-          <div class="mx-auto" style="width: 300px;">
-            <h2>About me</h2>
-            <p>
-              welcome to my web page, I'm a computer scientist with complementary medicine knowledge. As you can see I'm
-              always thinking about videogames and it is because I love challenges. My main interests are oriented to
-              software and videogames design and development. I really like create games but I
-              think they have and important role in education and creating habits, so what I love the gamification area.
-              I
-              expect to mix efficiently apps, games and medicine
-            </p>
-          </div>
-
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12 col-sm-4">
-          <h2>Education</h2>
+      <div class="col-12 col-sm-6">
+        <div class="mx-auto" style="width: 300px;">
+          <h2>About me</h2>
           <p>
-            Undergraduate in Ingeniería de Sistemas y Computación <br>
-            Universidad de Los Andes <br>
-            Bogota(Colombia) 2018
+            welcome to my web page, I'm a computer scientist with complementary medicine knowledge. As you can see I'm
+            always thinking about videogames and it is because I love challenges. My main interests are oriented to
+            software and videogames design and development. I really like create games but I
+            think they have and important role in education and creating habits, so what I love the gamification area.
+            I
+            expect to mix efficiently apps, games and medicine
           </p>
         </div>
-        <div class="col-12 col-sm-4">
-          <img src="images/stairs.png" alt="goals" height="150" width="150">
-        </div>
-        <div class="col-12 col-sm-4">
-          <h2>Experience</h2>
-          <p>
-            UPWORK(2017-2018) <br>
-            Freelancer <br>
-            Software and videogames developer for android and windows. Unity3D developer.
-          </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <h2>Projects</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <iframe width="642" height="361" src="https://www.youtube.com/embed/u6PaQAoyhLk" frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+      </div>
+    </div>
+    <div class="row" id="Achievements">
+      <div class="col-12 col-sm-4">
+        <h2>Education</h2>
+        <p>
+          Undergraduate in Ingeniería de Sistemas y Computación <br>
+          Universidad de Los Andes <br>
+          Bogota(Colombia) 2018
+        </p>
+      </div>
+      <div class="col-12 col-sm-4">
+        <div class="mx-auto" style="width: 150px;">
+          <img class="img-fluid" src="images/figura2.png" alt="tetris figure">
         </div>
-        <div class="col">
-          <h3>XPHERE</h3>
-          <p>Xphere is a type of action / platform game, within the category of "endless runner". This is really fun
-            because challenge your ability to overcome the different obstacles, which will take you on a journey through
-            the immensity of the universe. Thus, you will know universal phenomena very close to you, like; The
-            existence
-            of colossal celestial bodies, the great red spot of Jupiter, the "worm holes", large nebulae, the asteroid
-            belt of the solar system, among others. On the other hand,
-            there will be tools that will help you during the journey around the universe, the most important of which
-            are
-            platforms of different functions and sizes, which will make you reconsider how to progress along this. In
-            the
-            same way, you will face challenges that will lead you to feel an extraordinary experience in outer space,
-            and
-            help you on your adventure through the universe. As you progress, you will witness the magnificent art and
-            music that accompanies this experience, equally, you will be able to improve this pleasant trip with all the
-            characters that belong to this universe.</p>
-        </div>
+      </div>
+      <div class="col-12 col-sm-4">
+        <h2>Experience</h2>
+        <p>
+          UPWORK(2017-2018) <br>
+          Freelancer <br>
+          Software and videogames developer for android and windows. Unity3D developer.
+        </p>
+      </div>
+    </div>
+    <div class="row" id="Projects">
+      <div class="col">
+        <h2>Projects</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <iframe width="642" height="361" src="https://www.youtube.com/embed/u6PaQAoyhLk" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+      </div>
+      <div class="col">
+        <h3>XPHERE</h3>
+        <p>Xphere is a type of action / platform game, within the category of "endless runner". This is really fun
+          because challenge your ability to overcome the different obstacles, which will take you on a journey through
+          the immensity of the universe. Thus, you will know universal phenomena very close to you, like; The
+          existence
+          of colossal celestial bodies, the great red spot of Jupiter, the "worm holes", large nebulae, the asteroid
+          belt of the solar system, among others. On the other hand,
+          there will be tools that will help you during the journey around the universe, the most important of which
+          are
+          platforms of different functions and sizes, which will make you reconsider how to progress along this. In
+          the
+          same way, you will face challenges that will lead you to feel an extraordinary experience in outer space,
+          and
+          help you on your adventure through the universe. As you progress, you will witness the magnificent art and
+          music that accompanies this experience, equally, you will be able to improve this pleasant trip with all the
+          characters that belong to this universe.</p>
       </div>
     </div>
     <div class="row">
